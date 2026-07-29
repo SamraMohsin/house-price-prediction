@@ -22,16 +22,21 @@ This project uses the Kaggle **House Prices - Advanced Regression Techniques** d
 ## Files in this project
 
 - `house_prices_linear_regression.ipynb` - main notebook for the assignment
-- `train.csv` - training data from Kaggle
-- `test.csv` - Kaggle test data, kept here for reference
-- `sample_submission.csv` - sample submission file from Kaggle
-- `data_description.txt` - dataset description from Kaggle
+- `requirements.txt` - Python packages needed to run the notebook
+- The Kaggle CSV files are kept out of GitHub, so you will need to download them yourself
 
 ## How to run
 
 1. Open `house_prices_linear_regression.ipynb` in Jupyter Notebook or Google Colab.
-2. Make sure `train.csv` is in the same folder as the notebook.
-3. Run the cells from top to bottom.
+2. Install the Python packages in `requirements.txt` if they are not already installed.
+3. Download `train.csv` from Kaggle and put it in the same folder as the notebook.
+4. Run the cells from top to bottom.
+
+## Getting the data
+
+The notebook uses the Kaggle version of the House Prices dataset. I kept the data files out of the GitHub repo because they are fairly large and Kaggle already provides them.
+
+If you are using Google Colab, upload `train.csv` before running the notebook.
 
 ## Notes
 
